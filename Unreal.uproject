@@ -1,0 +1,51 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Unreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MagicLeapCamera",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapContacts",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapLocation",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Lumin"
+			]
+		},
+		{
+			"Name": "MagicLeapTablet",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}
